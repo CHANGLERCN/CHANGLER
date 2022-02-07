@@ -1,25 +1,11 @@
-看完请×掉！
-
-请不要传播！请不要传播！请不要传播！
-
-
-请不要使用！请不要使用！请不要使用！
-
-个人自用最全主库，集合可用脚本，适用于青龙面板。
-
-拉库命令：
-
-国内鸡：
-
-ql repo https://ghproxy.com/github.com/KingRan/JDJB.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"
-
-国外鸡：
-
-ql repo https://github.com/KingRan/JDJB.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"
-
 1、搬运整理，感谢所有原作者。
 
 2、个人学习目的，请下载后24小时内删除下载的代码。
+
+## 由于github仓库拉取较慢，所以会默认添加代理前缀，如不需要请移除
+GithubProxyUrl="https://pd.zwc365.com/"
+
+ql repo https://github.com/CHANGLERCN/CHANGLER.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"
 
 1.出现这种错误：
 
@@ -41,9 +27,9 @@ npm install 'xxxx'
 
 Cannot find module './xxxx'
 
-那就很有是拉库命令不完整，请检查或复制完整的拉库命令。
+那就很有是拉库命令不完整
 
-部分需要的依赖：自行安装
+部分需要的依赖：
 
 "npm install -g npm"
 
